@@ -25,15 +25,15 @@ Core concepts:
 Static website built with vanilla HTML, CSS, and JavaScript. No build step, no framework, no dependencies beyond Google Fonts.
 
 ```
-index.html   — landing page with interactive Grove hero + content sections
-style.css    — all styles (CSS custom properties, Grove scene, responsive)
-main.js      — Grove hero (depth navigation, parallax, semantic zoom), scroll reveal, nav
+index.html   — landing page with animated canvas hero + content sections
+style.css    — all styles (CSS custom properties, responsive)
+main.js      — animated node graph hero, scroll reveal, nav
 v6/          — design documents and mockups
 ```
 
-### The Grove Hero
+### Hero
 
-The hero section is an interactive forest scene where SVG plants represent conversations at different stages. Users navigate through depth (scroll/swipe vertical) and laterally (swipe horizontal), with fragment cards appearing via semantic zoom as you approach each plant.
+The hero section features an animated canvas node graph — drifting nodes connected by edges, with gentle pulsing and glow effects. The animation pauses when scrolled out of view for performance.
 
 ---
 
